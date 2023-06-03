@@ -1,0 +1,26 @@
+body{
+    background: gray;
+}
+h1,h3,h4{
+   
+    border-bottom: 1px solid rgb(99, 97, 97);
+    padding-bottom: 8px;
+    color:#000000;
+}
+.detail_container{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+}
+.skills{
+    text-align: left;
+    
+}
+
+.pic{
+    width:100%;
+    height: auto;
+    right: 20px;
+}

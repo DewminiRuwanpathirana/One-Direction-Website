@@ -1,0 +1,232 @@
+body {
+    background-color: rgb(197, 192, 192);
+    background-image: url("one-direction.jpg");
+    
+}
+.strt_button,
+.info_box
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.strt_button button{
+    font-size: 25px;
+    font-weight: 500;
+    color: blue;
+    padding: 15px 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+.strt_button button:hover{ /*Set the hover effect*/
+    background-color: blue;
+    color: white;
+}
+.info_box{      /*Style the information box*/
+    
+    width: 540px;
+    background: white;
+    border-radius: 5px;
+}
+
+.info_box.activeinfo{
+   
+    width: 540px;
+    background: white;
+    border-radius: 5px;
+}
+
+.info_box .info_title{
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.info_box .info_lst {
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+.info_box .info_lst .info{
+    margin: 15px 35px;
+    font-size: 18px;
+    
+}
+.info_box .info_lst .info span{
+    font-weight: bold;
+    color: blue;
+}
+
+.info_box .other_buttons{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+    border-top: 1px sold gray;
+}
+
+.info_box .other_buttons button {
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.other_buttons button.ext_button{
+    color: blue;
+    border-color: blue;
+
+}
+
+.other_buttons button.ext_button:hover{  /*Set the hover effect*/
+    color: white;
+    border-color: blue;
+    background: blue;
+}
+
+.other_buttons button.continue_button{
+    color: blue;
+    color: white;
+    border-color: blue;
+    background: blue;
+
+}
+
+.other_buttons button.continue_button:hover{    /*Set the hover effect*/
+    color: blue;
+    background: white;
+}
+
+.question_box{                          /*Style the Question box*/
+    max-width: 700px;
+    background-color: lightblue;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    font-size: large;
+
+}
+.answer{
+    text-align: right;
+}
+
+.Q_number{
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid gray
+
+}
+.Question{
+    padding: 10px;
+
+}
+.btn{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 35px;
+}
+.Qbox button{
+    
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(86, 7, 233);
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Qbox button:hover{          /*Set the hover effect*/
+    color: blue;
+    border-color: blue;
+    background: rgb(255, 255, 255);
+}
+.show_Result{         
+    position: relative;         /*Style the show result class, the area that answers would show*/
+    width: 800px;
+    height: 1000px;
+    max-width: 700px;
+    background-color: #ffffff;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    top: 80px;
+}
+.backtotop{
+    position: relative;
+    right: 420px;
+}
+table,th,td{                /*Style the table*/
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 30px 0;
+}
+table{                    /*Style the table*/
+    width: 700px;
+    height: 600px;
+}
+#total{
+    font-size: 25px;
+}
+#crown{               /*Style the crown image*/
+    font-size: 50px;
+}
+.edit{
+    position: relative;
+    left: 350px;
+}
+.edit_word{
+    position: relative;
+    left: 320px;
+}
+.edithome{
+    position: relative;
+    top: 250px;
+    left: 720px;
+
+}
+.back_to_home{
+    margin: 0 5px;
+    height: 40px;
+    width: 100px;
+    border: 1px solid transparent;
+    font-weight: bold;
+    border-radius: 5px;
+    color: rgb(86, 7, 233);
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    top: -30px;
+}
+.back_to_home:hover{                  /*Set the hover effect*/
+    background-color: blue;
+    color: white;
+}
+.linkicon{
+    width:50px;
+    height:50px;
+}

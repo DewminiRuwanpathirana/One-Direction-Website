@@ -1,0 +1,65 @@
+body{
+    background-color: grey;
+    
+}
+h1{
+
+    font-size: 25px;
+}
+.Heading{
+    position: relative;
+    top: 80px;
+    color:#ffff;
+	font-size:50px;
+	text-align: center;
+}
+.Student_Box{             /* CSS for Student Detail box*/
+    margin-left:40px;
+	width: 200px;
+	height: 250px;
+	padding:10px;
+	border-radius:20px;
+	border: 6px solid black;	
+}
+.img_box{
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border-radius:20px;
+}
+.student_details{   /* Then when the Student detail are viewing, gave a transition effect*/
+    width: 0px;
+    height: 250px;
+    background: rgba(0,0,0, 0.5);
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    transition: 0.7s;
+	border-radius:15px;
+}
+.student{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    transition: .2s;
+	overflow:hidden;
+	width:200px;
+	font-size:20px;
+}
+.img_box:hover .student_details{    /* Gave the hover effect for imag then the student details will appear in that.*/
+    width: 200px;
+}
+.box{
+    position: relative;
+    top: 100px;
+    margin-top:70px;
+	display:grid;
+	grid-template-columns:auto auto auto auto;
+}
+.linkicon{
+    width:50px;
+    height:50px;
+    position: relative;
+    left: 1280px;
+    top: 50px;
+}

@@ -1,0 +1,51 @@
+/* css for sitemap's word boxes */
+#block1,#block2,#block3,#block4,#block5,#block6,#block7,#block8,#block9,#block10{
+    stroke: white;
+    stroke-width: 5;
+    stroke-opacity: 0.7;
+    fill:rgb(64, 64, 64);
+}
+
+/* css for sitemap's words */
+#word1,#word2,#word3,#word4,#word5,#word6,#word7,#word8,#word9,#word10{
+    fill:rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Trebuchet MS', sans-serif;
+    text-anchor:middle;
+}
+
+/* css for sitemap's words hover effect */
+#word1:hover,#word2:hover,#word3:hover,#word4:hover,#word5:hover,#word6:hover,#word7:hover,#word8:hover,#word9:hover,#word10:hover{
+    cursor: pointer;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* css for sitemap lines */
+#line1,#line2,#line3,#line4,#line5,#line6,#line7,#line8,#line9,#line10,#line11,#line12{
+    stroke:rgb(0, 0, 0);
+    stroke-width:5;
+}
+
+/* css for sitemap title */
+#sitemaptitle{
+    position: relative;
+    left: 36%;
+    font-size: 50px;   
+}
+
+/* css for sitemap possition */
+.sitemap{
+    top: -100px;
+    position: relative;
+}
+
+/* Editor's page link  */
+.linkicon{
+    width:50px;
+    height:50px;
+    position: relative;
+    left: 95%;
+}
+    

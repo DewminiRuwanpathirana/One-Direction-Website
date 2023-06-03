@@ -1,0 +1,187 @@
+/* set the default background color to white  */
+#body{
+    background-color: white;
+}
+
+/* css for clickable images */
+.clickimg{
+    position: relative;
+    min-height: 100vh;
+}
+
+/* css for h1 tag uses */
+.clickimg h1{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 15px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+/* css for clickable 6 thumbnail image containers */
+.clickimg .imagecontainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+/* css for image borders */
+.clickimg .imagecontainer .image{
+    height: 350px;
+    width: 300px;
+    border: 7px solid rgb(191, 191, 191); 
+    overflow: hidden;
+    cursor: pointer; 
+
+}
+
+/* css for 6 thumbnail images */
+.clickimg .imagecontainer .image img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover; 
+}
+
+/* css for pop-up-image background */
+.clickimg .pop-up-image{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(153, 153, 153);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display:none ;
+}
+
+/* css for big image's short introductions */
+.clickimg .pop-up-image span{
+    position:absolute ;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* css for big images */
+.clickimg .pop-up-image img{
+    position: absolute;
+    top: 19%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 300px;
+    height: 350px;
+    object-fit: cover;
+}
+/*css for picture descriptions*/
+.pic-text {
+    margin-top:275px;
+    text-align: center;
+    font-size: small;
+    left: 0%;
+    
+}
+/*css for cover photo*/
+.upphoto{
+    width: 1500px;
+    height: 85vh;
+    position: relative;
+    top: 10px;
+    left: 3px;
+}
+/*css part for change background color button*/
+.button {
+    background-color: #a7aaaa;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+}
+  
+.down1 {
+    position: absolute;
+    display: inline-block;
+    top: 16px;
+    right: 150px;
+    font-size: 16px;
+    
+}
+  
+.down-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    z-index: 1;
+    cursor: pointer; 
+}
+  
+.down-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+   
+.down1:hover .down-content {
+    display: block;
+}
+.down1:hover .button {
+    background-color: #474747;
+}
+  
+/*css part for change text color button*/  
+.button {
+    background-color: #a7aaaa;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+}
+  
+.down2 {
+    position: absolute;
+    display: inline-block;
+    top: 16px;
+    right: 32px;
+    font-size: 16px;
+}
+  
+.down-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    min-width: 160px;
+    z-index: 1;
+    cursor: pointer; 
+}
+  
+.down-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+} 
+  
+.down2:hover .down-content {
+    display: block;
+}
+.down2:hover .button {
+    background-color: #474747;
+}  
+/* Editor's page link  */
+.linkicon{
+    width:50px;
+    height:50px;
+    position: relative;
+    left: 95%;
+}

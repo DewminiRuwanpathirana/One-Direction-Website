@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <link rel="stylesheet" type="text/css" href="../Main/css_pages/HeaderFooter.css">
+      <link rel="stylesheet" type="text/css" href="../Main/css_pages/Main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>One Direction</title>
+    </head>
+    <body>
+        
+
+
+            <!--Flowing Words-->
+            <marquee width="100%" direction="right" height="30%" class="flow" scrollamount="8">
+              <pre>ONE DREAM - ONE TEAM - ONE DIRECTION         ONE DREAM - ONE TEAM - ONE DIRECTION         ONE DREAM - ONE TEAM - ONE DIRECTION         ONE DREAM - ONE TEAM - ONE DIRECTION         ONE DREAM - ONE TEAM - ONE DIRECTION         ONE DREAM - ONE TEAM - ONE DIRECTION </pre>        
+              </marquee>
+            
+            <!--SlideShow of images-->
+            <div class="slideshow-container">
+            
+            <div class="mySlides fade">
+              
+              <img src="../Main/Images/Image1.jpg" style="width:100%" alt="image1">
+              
+            </div>
+            
+            <div class="mySlides fade">
+             
+              <img src="../Main/Images/Image2.jpg" style="width:100%" alt="image2">
+              
+            </div>
+            
+            <div class="mySlides fade">
+              
+              <img src="../Main/Images/Image3.jpg" style="width:100%" alt="image3">
+              
+            </div>
+            
+            </div>
+            <br>
+            <!--Dots Of the Slide Show-->
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div><br><br>
+            <!--Image of OneDirection Name -->
+            <div class="row1">  
+                <img src="../Main/Images/OneDirection.png" width="500" alt="name">  
+            </div>
+            <br>
+
+            <div class="para2">
+                <p>#12YearsOf1D</p>
+            </div>
+
+            <div class="intro">
+              <p>Five members(Zayn Malik, Liam Payne, Louis Tomlinson, Niall Horan and Harry Styles)<br> make up the English-Irish boy band One Direction,<br> which is located in London.</p>
+            </div>
+            <!--Video Of Main Page-->
+            <div class="divition">
+                <div id="left">
+            <video width="650" height="400" autoplay controls muted>
+                <source src="../Main/Video/OneDirection.mp4" type="video/mp4">
+              </video>
+            </div>
+            <!--Description box-->
+            <div id="right">
+                
+                <div class="album">
+                    <br>
+            <p id="para1">Checkout their debut single What Makes You Beautiful from Up All Night album which has more than one billion views on YouTube.</p>
+            <a href="https://www.youtube.com/watch?v=QJO3ROT-A4E" id="more">Watch Now</a>
+                </div>
+              </div>
+            </div>
+            <br><br>
+            <!--Journy of one direction-->
+            <div class="journy">
+                <p><b><i> The Journy</i></b></p>
+            </div>
+            <br><br>
+            <div class="row3">
+              <div class="column3" id="box1">
+                <p class="decsrp">Band was assembled through the 2010 season of The X Factor.</p>
+                
+              </div>
+              <div class="column3" id="box2">
+                <p class="decsrp">They were debuted back in 2011.</p>
+              </div>
+              <div class="column3" id="box3">
+                <p class="decsrp">One direction made the Guinness World Records with Up All Night which is their debut album.</p>
+              </div>
+              <div class="column3" id="box4">
+                <p class="decsrp">One Direction was originally five members but Zayn left the band in 2015</p>
+              </div>
+            </div>
+            
+            <!--JavaScript part of SlideShow of Images-->
+            <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+           
+	
+
+    </body>
+    
+    </html>

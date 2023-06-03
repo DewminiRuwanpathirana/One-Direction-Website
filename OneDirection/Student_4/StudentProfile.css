@@ -1,0 +1,22 @@
+body{
+    background: gray;
+}
+h1,h3,h4{
+    border-bottom: 1px solid rgb(99, 97, 97);
+    padding-bottom: 8px;
+    color:#3F51B5;
+}
+.detail_container{
+    margin: auto;
+    text-align: center;
+    width: 350px;
+}
+.skills{
+    text-align: left;
+    
+}
+.pic{
+    position: relative;
+    right: 20px;
+	width: 175px;
+	height: 230px;

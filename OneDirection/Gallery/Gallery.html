@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <!-- linked the css file-->
+    <link rel="stylesheet" href="Stylesheet.css">  
+</head>
+<body id="body">
+<div id="text-color">
+   <div class="clickimg">
+
+        <!--Title-->
+        <h1>Welcome To The Gallery</h1>
+
+        <!--code for change background color-->
+        <div class="down1">
+            <button class="button">Background Colour</button>
+            <div class="down-content">
+              <ul>
+                <li onclick="document.getElementById('body').style.backgroundColor='Black'">Black</li>
+                <li onclick="document.getElementById('body').style.backgroundColor='purple'">purple</li>
+                <li onclick="document.getElementById('body').style.backgroundColor='Yellow'">Yellow</li>
+                <li onclick="document.getElementById('body').style.backgroundColor='Pink'">Pink</li>
+                <li onclick="document.getElementById('body').style.backgroundColor='Cyan'">Cyan</li>
+                <li onclick="document.getElementById('body').style.backgroundColor='Gray'">Gray</li>
+                <li onclick="document.getElementById('body').style.backgroundColor='White'">white</li>
+                </ul>
+            </div>
+          </div>
+
+          <!--code for change text color-->
+          <div class="down2">
+            <button class="button">Text colour</button>
+            <div class="down-content">
+              <ul>
+                <li  onclick="document.getElementById('text-color').style.color='Black'">Black</li>
+                <li  onclick="document.getElementById('text-color').style.color='purple'">purple</li>
+                <li  onclick="document.getElementById('text-color').style.color='Yellow'">Yellow</li>
+                <li  onclick="document.getElementById('text-color').style.color='Pink'">Pink</li>
+                <li  onclick="document.getElementById('text-color').style.color='Cyan'">Cyan</li>
+                <li  onclick="document.getElementById('text-color').style.color='Gray'">Gray</li>
+                <li onclick="document.getElementById('text-color').style.color='Blue'">Blue</li>
+              </ul>
+            </div>
+          </div>
+
+        <!--cover photo-->  
+        <img class="upphoto" src="Photos/team5.webp" alt=""  >
+
+        <h1> One Direction </h1>
+        <!--Link the images & short introductions about the team members-->
+        <div class="imagecontainer">
+            <div class="image"><img onmouseover="big(this)" onmouseout="normal(this)" src="Photos/louis.jpg" alt="<h6>Louis William Tomlinson</h6><p><h6>Louis William Tomlinson was born on 24 December 1991.He is an English singer and songwriter.He rose to fame as a member of the boy band One Direction.Louis appeared as an extra character in the 2006 film 'If I Had You'.</h6></p>"></div>
+            <div class="image"><img onmouseover="big(this)" onmouseout="normal(this)" src="Photos/harry.webp" alt="<h6>Harry Edward Styles</h6><p><h6>Harry Edward Styles was born on 1 February 1994 in England. He is an English singer, songwriter, and actor.His musical career began in 2010 as a solo contestant.Styles released his self-titled debut solo album in 2017.It debuted at number one in the UK and the US and was one of the world's top-ten best-selling albums of the year.</h6></p>"></div>
+            <div class="image"><img onmouseover="big(this)" onmouseout="normal(this)" src="Photos/Liam5.jpg" alt="<h6>Liam James Payne</h6><p><h6>Liam James Payne was born on 29 August 1993 in England.He is an English singer. He rose to fame as a member of the boy band One Direction.Payne made his debut as a singer in 2008.Liam's parents are Geoff and Karen Payne. He has two sisters, Ruth and Nicola He also has a son named Bear.</h6></p>"></div>
+            <div class="image"><img onmouseover="big(this)" onmouseout="normal(this)" src="Photos/Niall-Horan.jpg" alt="<h6>Niall James Horan</h6><p><h6>......Niall James Horan  was born on 13 September 1993 in Mullingar, County Westmeath, Ireland.He is an Irish singer and songwriter.He rose to prominence as a member of the English-Irish boy band One Direction. He has an older brother, Greg.His parents are Bobby Horan and Maura Gallagher.</h6></p>"></div>
+            <div class="image"><img onmouseover="big(this)" onmouseout="normal(this)" src="Photos/zain.jpg" alt="<h6>Zayn Malik</h6><p><h6>Zayn Malik was born Zain Javadd Malik on 12 January 1993 in England, to an immigrant Pakistani Muslim father(Yaser Malik) and a White British mother of English and Irish descent.Malik has one older sister and two younger sisters.Zayn left the group in March 2015.</h6></p>"></div>
+            <div class="image"><img onmouseover="big(this)" onmouseout="normal(this)" src="Photos/one-D.jpg" alt="<h6>One Direction</h6><p><h6>One Direction are an English-Irish pop boy band formed in London, England in 2010.The group are composed of Niall Horan, Liam Payne, Harry Styles and Louis Tomlinson. Zayn Malik left the group in March 2015.They have released 6 albums named Up-All-Night,Take Me Home,Midnight Memories,Four,Made in the A.M.</h6></p>"></div>
+        </div>
+        <div class="pop-up-image">
+            <span>&times;</span>
+            <img src="../Photos/louis.jpg" alt="">
+                <span class="pic-text"></span>
+        </div>
+    </div>
+</div>
+
+<!-- link the editor's page -->
+<p class="edit"><a href="../Student_4/Student Profile.html"><img src="Photos/editor-icon.jpeg" class="linkicon" alt="edit"></a></p>
+
+<!-- linked the java script file -->
+<script src="Javascript.js"></script>
+  
+</body>
+</html>

@@ -1,0 +1,63 @@
+body{
+    background: gray;
+}
+h1,h3,h4{
+   
+    border-bottom: 1px solid rgb(99, 97, 97);
+    padding-bottom: 8px;
+    color:#000000;
+}
+.detail_container{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    text-align: center;
+    width: 350px;
+}
+.skills{
+    text-align: left;
+    
+}
+.socialmedia{
+    display: flex;
+    justify-content: center;
+}
+.pic{
+    position: relative;
+    right: 20px;
+}
+.nav {
+    background-color:black;
+    top: 0;
+    overflow: hidden;
+    position:fixed;
+    width: 100%;
+    height: 85px;
+}
+.topnav{
+    float: right;
+   color: #f2f2f2;
+   text-align: center;
+   padding: 14px 20px;
+   text-decoration: none;
+   font-size: 25px;
+   position: relative;
+   top: 10px;
+}
+.logo1{
+    float: left;
+    padding: 10px 20px;
+    position: relative;
+    top: 10px;
+}
+.logo2{
+    float: left;
+    font-family:cursive;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+    font-style: italic;
+    position: relative;
+    top: 10px;
+}

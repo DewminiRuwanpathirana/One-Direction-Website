@@ -1,0 +1,404 @@
+body{
+    background-color: rgb(39, 39, 39);
+    height: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+    font-size: 50px;
+    position: relative;
+    top: 50px;
+}
+
+h2{  text-align: center;
+    font-size: 30px;
+}
+.boxset{
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 50px;
+    padding: 50px
+    
+}
+.box{
+    margin: 0;
+    padding: 0;
+    border: 10px solid rgb(150, 150, 150);
+    background-color:rgb(103, 105, 105);
+    position: relative;
+    width: 50%;
+    display:block;
+    margin-top:70px;
+    
+    border-radius: 10px;
+    top:-350px;
+}
+.list{
+    position: relative;
+    left: 10px;
+    text-align: left;
+    font-size: 30px;
+    top: -10px;
+}
+.album1{
+    width: 550px;
+    height: 550px;
+    position: relative;
+    left: 700px;
+    top: 160px;
+
+}
+.album3{
+    width: 550px;
+    height: 500px;
+    left: 700px;
+    position: relative;
+    top: 160px;
+}
+.album4{
+    width: 550px;
+    height: 450px;
+    left: 700px;
+    position: relative;
+    top: 140px;
+}
+.album5{
+    width: 550px;
+    height: 450px;
+    left: 700px;
+    position: relative;
+    top: 140px;
+}
+
+.left1{
+    position: relative;
+    top: -200px;
+    
+}
+.right1{
+    position: relative;
+    top: 120px;
+}
+.right2{
+    position:relative;
+    top: 120px;
+}
+.left2{
+    position: relative;
+    top: -700px;
+}
+.right3{
+    position:relative;
+    top: 70px;
+}
+.left3{
+    position: relative;
+    top: -1140px;
+}
+.right4{
+    position:relative;
+    top: 40px;
+}
+.left4{
+    position: relative;
+    top: -1540px;
+}
+.right5{
+    position:relative;
+    top: 40px;
+}
+.left5{
+    position: relative;
+    top: -1950px;
+}
+.spotify{
+    height: 30px;
+    width:30px;
+    position: relative;
+    top: 10px;
+}
+.album_link{ 
+    border: 10px solid rgb(150, 150, 150);
+    background-color:rgb(103, 105, 105);
+    width: 600px;
+    height: 400px;
+    position: relative;
+    top: -2000px;
+    left: 400px;
+    
+    font-size: 25px;
+}
+.spotify_list{
+    position: relative;
+    top: 10px;
+    
+}
+
+ /*footer*/
+   .footer {
+   
+    width: 100%;
+    background-color:black;
+    padding-left:0 ;
+    padding-top: 1%;
+    color: white;
+ }
+ 
+ .social img {
+    padding-right: 1.5%;
+ }
+ .social a :hover {
+   opacity: 0.7;
+ }
+ 
+ .column1 {
+   float: left;
+   width: 45%;
+   padding: 10px;
+   height: 300px;
+   
+ }
+ 
+ .column2 {
+   float: right;
+   width: 50%;
+   padding: 10px;
+   height: 300px;
+   
+ }
+ 
+ .row:after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+ 
+ #footericon {
+    list-style: none;
+    margin-left: 20%;
+ }
+ 
+ #footericon li a {
+   text-decoration: none;
+   color:white ;
+   padding-top: 1%;
+   font-size: 50px;
+  }
+ 
+ 
+ #footericon li a:hover {
+  opacity: 0.7;
+  }
+ 
+ 
+  #footericon li{
+  display: inline;
+ }
+ 
+ #footertext {
+  
+  list-style: none;
+ }
+  #footertext li a {
+  text-decoration: none;
+   color:white ;
+   padding-top: 1%;
+  
+ }
+ 
+ 
+ #footertext li{
+  padding-bottom:1%;
+ }
+ 
+ 
+ .bottomnav {
+ 
+   width: 100%;
+   padding-left:0.5% ;
+   padding-top: 0.5%;
+   padding-bottom: 0.8%;
+ 
+ }
+ 
+ .coppyright {
+   font-size: 20px;
+   color: white;
+   font-weight: bold;
+   text-decoration: none;
+ 
+  }
+ 
+  .slc{
+   font-size: 20px;
+   color: blue;
+   font-weight: bold;
+   text-decoration: none;
+  }
+ 
+  .smap{ 
+   font-size: 20px;
+   color:white;
+   border-width: 2px ;
+   border-style: solid;
+   border-color: white;
+   font-weight: bold;
+   text-decoration: none;
+   margin-left: 15% ;
+   transition: 300ms;
+   padding: 0.25% 1.25%;
+   
+  }
+ 
+  .bottomnav .smap:hover{
+   color: #001036;
+   color: #001036;
+   border-color: black;
+   border-radius: 20px;
+   padding: 0.25% 1.25%;
+ 
+  }
+ 
+  .edit{
+ 
+   font-size: 20px;
+   color:white;
+   border-width: 2px ;
+   border-style: solid;
+   border-color: white;
+   font-weight: bold;
+   text-decoration: none;
+   margin-left: 15%;
+   padding: 0.25% 1.25%;
+   transition: 300ms;
+   
+ 
+  }
+  
+ 
+   .bottomnav .edit:hover{
+   color: #001036;
+   border-width: 2px ;
+   border-style: solid;
+   border-color: black;
+   border-radius: 20px;
+   padding: 0.25% 1.25%;
+ 
+  }
+  .logo1{
+   float: left;
+   padding: 10px 20px;
+   position: relative;
+   top: 10px;
+  }
+  .logo2{
+   float: left;
+   font-family:cursive;
+   padding: 10px 20px;
+   text-decoration: none;
+   color:white;
+   font-size: 30px;
+   font-style: italic;
+   position: relative;
+   top: 10px;
+  }
+  .column3{
+   float: left;
+   width: 15%;
+   padding: 15px;
+   
+                height: 200px;
+                background-color:rgb(161, 159, 159);
+                margin: 30px 10px;
+                
+                border-radius: 20px;
+                position: relative;
+                
+                top: -80px;
+                left: 200px;
+ }
+ .row3::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+ .column3{
+   text-align: center;
+                 position: relative;
+ 
+ }
+ .intro{
+   text-align: center;
+   font-size: 25px;
+ }
+ .decsrp{
+   position: relative;
+   top: 40px;
+ }
+ #box1{
+   background-color: rgb(54, 54, 54);
+   color: white;
+ }
+ #box2{
+   background-color: rgb(75, 75, 75);
+   color: white;
+ }
+ #box3{
+   background-color: rgb(119, 118, 118);
+   color: white;
+ }
+ #box4{
+   background-color: rgb(177, 177, 177);
+   color: white;
+ }
+  
+  
+ 
+ /*nav bar*/
+ .nav {
+    background-color:black;
+    position:fixed;
+    width: 100%;
+    height: 85px;
+   overflow-x: hidden;
+    
+   
+    
+   
+    
+ }
+ .topnav{
+   float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+  top: 10px;
+  
+  
+ }
+ .nav a:hover {
+   font-weight: bold;
+   font-size: 28px;
+ }
+ .btn1{
+  background-color:rgb(174, 166, 166);
+  color: white;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+ }
+ .btn1:hover{
+    background-color: azure;
+    color: #000;
+ }

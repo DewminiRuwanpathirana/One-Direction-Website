@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quiz</title>
+        <!--Import a crown icon-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"> <!--Import CSS file-->
+        
+    </head>
+    <body>
+      
+
+    
+        <!--Created button for start the quiz-->
+        <div  class="strt_button" id="strtbtn">
+            <p class="edithome"><a href="../Student_3/Student_Profile.html"><img src="edit.png" class="linkicon" alt="edit"></a></p>
+            <button type="button" onclick="showinfo()">Start the Quiz</button>
+        </div>
+        <div class="info_box" id="infobox" hidden>
+            <div class="info_title">
+                <Span>Some information for the participants.</Span>
+            </div>
+            <div class="info_lst" ><!--Informationn-->
+                <div class="info">1. You'll have <span>10 questions</span>.</div>
+                <div class="info">2. You'll recieve <span>1 minute</span> for answer 10 questions.</div>
+                <div class="info">3. Once the you select the answer you can't change it back.</div>
+                <div class="info">4. You'll get  points based on each correct answer.</div>
+            </div>
+            <div class="other_buttons"><!--Two buttons for exit and continue-->
+                <button class="ext_button" onclick="quit()">Exit</button>
+                <button class="continue_button" onclick="showquestion()">Continue</button>
+            </div>
+        </div>
+        <div id="Question_area" class="Qbox" hidden>
+            <div class="question_box"><!--Question 1-->
+                <p class="Q_number">Question 1</p>
+                <p class="Question">Which member of One Direction came up with the name?</p>
+                <input type="radio" class="answer" name="answer1" value="0">Harry<br>
+                <input type="radio" class="answer" name="answer1" value="1">Zayn<br>
+                <input type="radio" class="answer" name="answer1" value="2">Liam<br>
+                <input type="radio" class="answer" name="answer1" value="3">Louise<br>
+            </div>
+            <div class="question_box"><!--Question 2-->
+                <p class="Q_number">Question 2</p>
+                <p class="Question">Nial Horan's middle name is:</p>
+                <input type="radio" class="answer" name="answer2" value="0">Jarrod<br>
+                <input type="radio" class="answer" name="answer2" value="1">Alex<br>
+                <input type="radio" class="answer" name="answer2" value="2">James<br>
+                <input type="radio" class="answer" name="answer2" value="3">Justin<br>
+            </div>
+            <div class="question_box"><!--Question 3-->
+                <p class="Q_number">Question 3</p>
+                <p class="Question">Who's the oldest member of the group?</p>
+                <input type="radio" class="answer" name="answer3" value="0">Zayn<br>
+                <input type="radio" class="answer" name="answer3" value="1">Harry<br>
+                <input type="radio" class="answer" name="answer3" value="2">Louis<br>
+                <input type="radio" class="answer" name="answer3" value="3">Liam<br>
+            </div>
+            <div class="question_box"><!--Question 4-->
+                <p class="Q_number">Question 4</p>
+                <p class="Question">Who left One Direction first?</p>
+                <input type="radio" class="answer" name="answer4" value="0">Liam<br>
+                <input type="radio" class="answer" name="answer4" value="1">Zayn<br>
+                <input type="radio" class="answer" name="answer4" value="2">Nial<br>
+                <input type="radio" class="answer" name="answer4" value="3">Harry<br>
+            </div>
+            <div class="question_box"><!--Question 5-->
+                <p class="Q_number">Question 5</p>
+                <p class="Question">Which member has a solo album called "Flicker"</p>
+                <input type="radio" class="answer" name="answer5" value="0">Harry<br>
+                <input type="radio" class="answer" name="answer5" value="1">Zayn<br>
+                <input type="radio" class="answer" name="answer5" value="2">Nial<br>
+                <input type="radio" class="answer" name="answer5" value="3">Liam<br>
+            </div>
+            <div class="question_box"><!--Question 6-->
+                <p class="Q_number">Question 6</p>
+                <p class="Question">What was the One Direction's second song?</p>
+                <input type="radio" class="answer" name="answer6" value="0">"What makes you beautiful"<br>
+                <input type="radio" class="answer" name="answer6" value="1">"Gotta be you"<br>
+                <input type="radio" class="answer" name="answer6" value="2">"One thing"<br>
+                <input type="radio" class="answer" name="answer6" value="3">"Up all night"<br>
+            </div>
+            <div class="question_box"><!--Question 7-->
+                <p class="Q_number">Question 7</p>
+                <p class="Question">Zayn has a hidden drawing talent.</p>
+                <input type="radio" class="answer" name="answer7" value="0">True.<br>
+                <input type="radio" class="answer" name="answer7" value="1">False.<br>
+            </div>
+            <div class="question_box"><!--Question 8-->
+                <p class="Q_number">Question 8</p>
+                <p class="Question">Who won the X Factor twice. Once in 2008 and once in 2010.</p>
+                <input type="radio" class="answer" name="answer8" value="0">Louis<br>
+                <input type="radio" class="answer" name="answer8" value="1">Harry<br>
+                <input type="radio" class="answer" name="answer8" value="2">Liam<br>
+                <input type="radio" class="answer" name="answer8" value="3">Nial<br>
+            </div>
+            <div class="question_box"><!--Question 9-->
+                <p class="Q_number">Question 9</p>
+                <p class="Question">What's the One Direction's most famous song?</p>
+                <input type="radio" class="answer" name="answer9" value="0">"Drag Me Down"<br>
+                <input type="radio" class="answer" name="answer9" value="1">"Best Song Ever"<br>
+                <input type="radio" class="answer" name="answer9" value="2">"One thing"<br>
+                <input type="radio" class="answer" name="answer9" value="3">"What makes you beautiful"<br>
+            </div>
+            <div class="question_box"><!--Question 10-->
+                <p class="Q_number">Question 10</p>
+                <p class="Question">How many albums have One Direction released?</p>
+                <input type="radio" class="answer" name="answer10" value="0">2<br>
+                <input type="radio" class="answer" name="answer10" value="1">3<br>
+                <input type="radio" class="answer" name="answer10" value="2">4<br>
+                <input type="radio" class="answer" name="answer10" value="3">5<br>
+            </div>
+            <div class="question_box">
+                <div class="btn"><!--Created two buttons for go to back to top and to submit answers-->
+                <button class="backtotop" onclick="backtotop()">Back to Top</button>
+                <button class="submit" onclick=" Results()">Submit</button>
+                </div>
+            </div>
+           
+            
+        </div>
+        <div class="show_Result" id="Result_Box" hidden><!--Created table for view the answers customer gave and view the correct answers.-->
+            <div id="total"></div>
+            <p id="crown" hidden><i class="fas fa-crown"></i></p>
+            <table>
+                
+                <tr>
+                  <th>Question Number</th>
+                  <th>Correct Answer</th>
+                  <th>Your Answer</th>
+                </tr>
+                <tr>
+                    <td>Question 1</td>
+                    <td>1</td>
+                    <td id="q1"></td>
+                </tr>
+                <tr>
+                    <td>Question 2</td>
+                    <td>3</td>
+                    <td id="q2"></td>
+                </tr>
+                <tr>
+                    <td>Question 3</td>
+                    <td>3</td>
+                    <td id="q3"></td>
+                </tr>
+                <tr>
+                    <td>Question 4</td>
+                    <td>2</td>
+                    <td id="q4"></td>
+                </tr>
+                <tr>
+                    <td>Question 5</td>
+                    <td>3</td>
+                    <td id="q5"></td>
+                </tr>
+                <tr>
+                    <td>Question 6</td>
+                    <td>2</td>
+                    <td id="q6"></td>
+                </tr>
+                <tr>
+                    <td>Question 7</td>
+                    <td>1</td>
+                    <td id="q7"></td>
+                </tr>
+                <tr>
+                    <td>Question 8</td>
+                    <td>3</td>
+                    <td id="q8"></td>
+                </tr>
+                <tr>
+                    <td>Question 9</td>
+                    <td>4</td>
+                    <td id="q9"></td>
+                </tr>
+                <tr>
+                    <td>Question 10</td>
+                    <td>4</td>
+                    <td id="q10"></td>
+                </tr>
+
+            </table>
+            <p class="edit"><a href="../Student_3/Student_Profile.html"><img src="edit.png" class="linkicon" alt="edit"></a></p>
+            <p class="edit_word">View the Editor</p><br>
+            <form action="../Main/Main.html"><button class="back_to_home">Back to Home</button></form>
+        </div>
+        <script src="CWScript.js"></script><!--Link the JavaScript file-->
+
+    
+
+    </body>
+
+</html>
